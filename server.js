@@ -37,7 +37,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/news";
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI);
 
-app.listen(process.env.PORT || 3000);
+// app.listen(process.env.PORT || 3000);
 
 app.engine("handlebars", exphbs({
   defaultLayout: "main"

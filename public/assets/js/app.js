@@ -1,4 +1,5 @@
   $(document).ready(function() {
+  $(".clear").on("click", handleArticleClear);
   
   // when the save button is clicked, get the article ID and set its saved property to true
   $(".save-btn").on("click", function(event) {
@@ -107,4 +108,10 @@
       })
   });
 
+function handleArticleClear() {
+  $.get("api/clear").then(function() {
+    articleContainer.empty();
+    initPage();
+  });
+}
 });
