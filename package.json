@@ -1,0 +1,33 @@
+{
+  "name": "scrapingapp",
+  "version": "1.0.0",
+  "description": "scraped news articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k10bale/scrapingApp.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "kristen kalmanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k10bale/scrapingApp/issues"
+  },
+  "homepage": "https://github.com/k10bale/scrapingApp#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.12",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
